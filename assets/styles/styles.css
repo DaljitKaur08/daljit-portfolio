@@ -77,15 +77,15 @@ header h1 {
 
 .hero-title,
 #gradient-heading {
-  font-size: 48px;
+  font-size: 50px;
   color: #53add4;
   animation: fade-in 1.2s ease-in-out;
 }
 
 .hero p {
-  font-size: 17px;
+  font-size: 20px;
   max-width: 650px;
-  margin: 10px auto;
+  margin: 6px auto;
 }
 
 .btn,
@@ -146,7 +146,7 @@ header h1 {
 
 .caption {
   margin-top: 12px;
-  font-size: 14px;
+  font-size: 13px;
   color: #c0d3e9;
   font-style: italic;
   text-align: center;
@@ -214,7 +214,7 @@ header h1 {
 
 
 .video-box {
-  margin-top: 40px;
+  margin-top: 44px;
   text-align: center;
 }
 
@@ -227,7 +227,7 @@ header h1 {
 
 .citation {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 13px;
   color: #bcd2e8;
   font-style: italic;
 }
