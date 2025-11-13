@@ -84,8 +84,9 @@ header h1 {
 
 .hero p {
   font-size: 20px;
-  max-width: 650px;
-  margin: 6px auto;
+  max-width: 700px;
+  margin: 12px auto;
+  line-height: 1.7;
 }
 
 .btn,
@@ -234,7 +235,7 @@ header h1 {
 
 
 .contact {
-  padding: 80px 20px;
+  padding: 120px 20px;     
   background: url("../media/contact.jpg") center/cover no-repeat;
   position: relative;
   color: white;
@@ -248,22 +249,30 @@ header h1 {
   background: rgba(0,0,0,0.6);
 }
 
-.contact h3,
-.contact p,
-.contact-icons {
+.contact h3 {
   position: relative;
+  font-size: 32px;        
+  margin-bottom: 20px;
 }
 
+.contact p {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 40px;    
+}
+
+
 .contact-icons {
+  position: relative;
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 35px;
-  margin-top: 20px;
+  gap: 60px;              
+  margin-top: 30px;
 }
 
 .contact-icons a {
-  font-size: 32px;
+  font-size: 40px;        
   color: #bcd2e8;
   transition: 0.3s ease;
 }
