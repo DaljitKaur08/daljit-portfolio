@@ -1,0 +1,5 @@
+d74c7cf Final work
+cb3d2fa Created project section with text, bullets, and image
+22c60c6 Improved About section styling and spacing
+db249e1 styles done
+141ca46 Initial setup of portfolio

@@ -8,16 +8,26 @@
 
   <title>Daljit Kaur | Portfolio</title>
 
+ 
   <link rel="icon" href="./assets/media/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap" 
+rel="stylesheet">
+
+ 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  
   <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="container header">
-    <h1>Daljit Kaur</h1>
+  
+
+  <header class="header container">
+    <h1 class="logo">Daljit Kaur</h1>
 
     <nav>
       <ul class="nav-list">
@@ -28,127 +38,137 @@
     </nav>
   </header>
 
-  <main>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-      <div class="hero-content container fade-in">
-        <h2 class="hero-title">Hello, World!</h2>
-        <p>Logic • Creativity • Technology</p>
+ 
+
+  <section class="hero">
+    <div class="hero-box container fadein">
+      <h2 class="hero-heading">Hello, World!</h2>
+
+      <p class="hero-tagline">Logic • Creativity • Technology</p>
+
+      <p class="hero-text">
+        I am Daljit Kaur, a Software Developer student at MITT.
+        With a background in Physics, I combine analytical thinking
+        with creative problem-solving to design meaningful digital experiences.
+      </p>
+
+      <a href="#about" class="button">Know More</a>
+    </div>
+  </section>
+
+
+  
+
+  <section id="about" class="about">
+    <div class="container about-grid">
+
+      <div class="about-img">
+        <img src="./assets/media/profile.jpg" alt="Daljit standing outside building">
+      </div>
+
+      <div class="about-text">
+        <h3 class="section-heading">Who I Am</h3>
+
         <p>
-          I am Daljit Kaur, a Software Developer student at MITT.  
-          With a background in Physics, I combine analytical thinking with creative problem-solving  
-          to design meaningful digital experiences.
+          I am a learner who blends science with technology.
+          My experience in Physics helps me think logically, work with precision,
+          and build websites that are both user-friendly and educational.
         </p>
 
-        <a href="#about" class="btn">Know More</a>
+        <h4>Vision & Focus</h4>
+
+        <ul class="bullet-list">
+          <li>Use scientific observation skills in web development.</li>
+          <li>Create interactive experiences that inspire users.</li>
+          <li>Combine analytic and creative thinking.</li>
+          <li>Design tools that make learning easier.</li>
+        </ul>
+
+        <p class="caption">Connecting science with creativity and code.</p>
       </div>
-    </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about">
-      <div class="container about-grid">
+      <div class="about-img">
+        <img src="./assets/media/laptop.jpg" alt="Working on laptop">
+      </div>
 
-        <div class="about-img">
-          <img src="./assets/media/profile.jpg" alt="Daljit Kaur Portrait">
-        </div>
+    </div>
+  </section>
 
-        <div class="about-text">
-          <h3>Who I Am</h3>
+
+ 
+
+  <section id="project" class="project">
+    <div class="container">
+
+      <h3 class="section-heading">Rutherford Gold Foil Experiment</h3>
+
+      <div class="project-flex">
+
+        <div class="project-text">
           <p>
-            I am a learner who blends science with technology.  
-            My experience in Physics helps me think logically, work with precision,  
-            and build websites that are both user-friendly and educational.
+            The Rutherford experiment changed our understanding of the atom.
+            Alpha particles were aimed at a thin gold foil. Most passed through,
+            but some were sharply deflected — revealing that atoms contain
+            a tiny, dense nucleus.
           </p>
 
-          <h4>Vision & Focus</h4>
           <ul class="bullet-list">
-            <li>Use scientific observation skills in web development.</li>
-            <li>Create interactive experiences that inspire users.</li>
-            <li>Combine analytic and creative thinking.</li>
-            <li>Design tools that make learning easier.</li>
+            <li>Most particles passed straight through → atoms are mostly empty space.</li>
+            <li>Some deflected → positive charge repelled alpha particles.</li>
+            <li>A few bounced back → direct hit with the nucleus.</li>
           </ul>
 
-          <p class="caption">Connecting science with creativity and code.</p>
+          <a href="https://daljitkaur08.github.io/rutherford-simulation/"
+             target="_blank" class="button">
+            Launch Simulation
+          </a>
         </div>
 
-        <div class="about-img">
-          <img src="./assets/media/laptop.jpg" alt="Working on laptop">
-        </div>
-
-      </div>
-    </section>
-
-    <!-- PROJECT SECTION -->
-    <section id="project" class="project">
-      <div class="container">
-        <h3 class="project-title">Rutherford Gold Foil Experiment</h3>
-
-        <div class="project-flex">
-
-          <div class="project-text">
-            <p>
-              The Rutherford experiment changed our understanding of the atom.  
-              Alpha particles were aimed at a thin gold foil. Most passed through,  
-              but some were sharply deflected — revealing that atoms contain  
-              a tiny, dense nucleus.
-            </p>
-
-            <ul class="bullet-list">
-              <li>Most particles passed straight → atoms are mostly empty space.</li>
-              <li>Some deflected → positive charges repelled them.</li>
-              <li>A few bounced back → direct hit with the nucleus.</li>
-            </ul>
-
-            <p>
-              This experiment led to the nuclear model and helped scientists  
-              refine our understanding of atomic structure.
-            </p>
-
-            <a href="https://daljitkaur08.github.io/rutherford-simulation/" 
-               target="_blank" class="btn">
-              Launch Simulation
-            </a>
-          </div>
-
-          <div class="project-img">
-            <img src="./assets/media/rutherford-model.png" alt="Rutherford Model">
-            <p class="caption">Alpha particle scattering around the nucleus.</p>
-          </div>
-
-        </div>
-
-        <div class="video-box">
-          <iframe src="https://www.youtube.com/embed/f7QMXMwV7u4?start=18"
-                  title="Rutherford Gold Foil Experiment"></iframe>
-
-          <p class="citation">
-            Source: PHYSICS MADE EASY (KOTA), Atomic Structure Video Lesson.
-          </p>
+        <div class="project-img">
+          <img src="./assets/media/rutherford-model.png" alt="Rutherford Model Diagram">
+          <p class="caption">Alpha particle scattering around the nucleus.</p>
         </div>
 
       </div>
-    </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h3>Contact Me</h3>
-        <p>Let’s collaborate on projects where logic meets creativity.</p>
+      <div class="video-box">
+        <iframe
+          src="https://www.youtube.com/embed/f7QMXMwV7u4?start=18"
+          title="Rutherford Gold Foil Experiment">
+        </iframe>
 
-        <ul class="contact-icons">
-          <li><a href="mailto:saini26daljit@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
-          <li><a href="https://github.com/DaljitKaur08" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-          <li><a href="https://linkedin.com/in/daljit-kaur-edu" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        </ul>
+        <p class="citation">
+          Source: PHYSICS MADE EASY (KOTA), Atomic Structure Video Lesson.
+        </p>
       </div>
-    </section>
 
-  </main>
+    </div>
+  </section>
 
-  <!-- FOOTER -->
+
+
+
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <h3 class="contact-heading">Contact Me</h3>
+      <p class="contact-line">Let’s collaborate on projects where logic meets creativity.</p>
+
+      <ul class="contact-icons">
+        <li><a href="mailto:saini26daljit@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a href="https://github.com/DaljitKaur08" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://linkedin.com/in/daljit-kaur-edu" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+
+    </div>
+  </section>
+
+
+  
+
   <footer>
-    <p>&copy; 2025 Daljit Kaur | MITT Portfolio</p>
+    <p> &copy; 2025 Daljit Kaur | MITT Portfolio</p>
   </footer>
 
 </body>
